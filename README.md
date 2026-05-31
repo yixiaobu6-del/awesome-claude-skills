@@ -14,4 +14,4 @@ Claude Code Skills 精选列表与发现工具。
 
 ## 使用
 
-打开 `index.html` 即可使用。
+打开 index.html 即可使用。
