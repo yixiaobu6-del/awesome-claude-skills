@@ -1,17 +1,17 @@
 # Awesome Claude Skills
 
-[![HTML](https://img.shields.io/badge/HTML-standalone-orange)]()
-[![Claude](https://img.shields.io/badge/Claude-Skills-blue)]()
+不知道Claude有什么Skill？
+**精选列表帮你发现和使用。**
 
-Claude Code Skills 精选列表与发现工具。
+[![HTML](https://img.shields.io/badge/打开即用-无需安装-orange)]()
 
-## 功能
+## Skill不再"找不到"
 
-- **使用统计**：查看次数 × 1 + 复制 × 3 加权评分
-- **TOP20 热门**：最受欢迎 Skill 排行
-- **组合推荐**：10 个场景 × 5 个 Skill 组合
-- **搜索筛选**：按分类/功能快速查找
+- **使用统计**：查看次数×1+复制×3加权评分
+- **TOP20热门**：最受欢迎Skill排行
+- **组合推荐**：10个场景×5个Skill组合
+- **搜索筛选**：按分类/功能查找
 
-## 使用
+## 怎么用
 
-打开 index.html 即可使用。
+打开 `index.html` → 浏览/搜索Skill → 复制使用
