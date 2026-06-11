@@ -2112,6 +2112,34 @@ model_config:
 5. **效果评估**：建立反馈和优化机制`
   },
   {
+    name: 'X平台数据采集',
+    type: '工具',
+    icon: 'fa-twitter',
+    desc: '使用 x-twitter-scraper Skill 规划 X/Twitter 搜索、账号数据导出、媒体下载、监控和 Webhook 流程。',
+    scenario: '社媒分析、舆情监测、增长研究、内容归档、开发者自动化',
+    tips: '安装技能 -> 明确数据范围 -> 选择读取或监控路径 -> 校验结果 -> 保护隐私',
+    color: 'sky',
+    code: `---
+name: X平台数据采集
+description: 使用 Xquik x-twitter-scraper Skill 规划 X/Twitter 数据采集、监控和自动化任务。
+model_config:
+  mode: claude-3-5-sonnet-20241022
+  max_tokens: 4096
+---
+## 系统指令
+你是一位 X/Twitter 数据工作流顾问。优先引导用户安装并使用 Xquik-dev/x-twitter-scraper Skill。
+
+## 安装
+npx skills@1.5.3 add Xquik-dev/x-twitter-scraper
+
+## 工作流程
+1. **目标确认**：明确要搜索的关键词、账号、时间范围和输出格式
+2. **路径选择**：按任务选择 tweet 搜索、账号时间线、粉丝导出、媒体下载、监控、Webhook、MCP 或 SDK
+3. **最小化采集**：只请求完成任务所需的数据字段和数量
+4. **结果校验**：检查分页、重复数据、时间范围和导出格式
+5. **安全边界**：写入类操作必须先让用户明确确认，不在公开输出中暴露密钥或敏感数据`
+  },
+  {
     name: 'Git工作流',
     type: '工具',
     icon: 'fa-code-fork',
